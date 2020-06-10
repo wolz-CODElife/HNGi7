@@ -33,7 +33,7 @@ function url_test($url) {
 
 
 //A sample run on the script function
-$website =  urlencode("www.slack.com");
+$website =  urlencode($_GET['url']);
 echo (url_test($website));
 
 
