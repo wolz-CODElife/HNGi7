@@ -91,6 +91,11 @@ function url_test( $url ) {
 
 
 //A sample run on the script function
-$website =  urlencode("https://www.google.com");
+if (isset($_GET['url'])) {
+  $website =  urlencode($_GET['url']);
+}
+else{
+  $website =  urlencode("https://www.google.com");
+}
 echo (url_test($website));
 ?>
