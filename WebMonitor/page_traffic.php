@@ -37,7 +37,7 @@ if (isset($_GET['url'])) {
   $website =  urlencode($_GET['url']);
 }
 else{
-  $website =  urlencode("https://www.google.com");
+  $website =  urlencode("https://www.twitter.com");
 }
 echo (url_test($website));
 
