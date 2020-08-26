@@ -8,6 +8,8 @@ Go to your localhost diretory on your Local machine.
 
 Clone the repository with the command below
  `$ git clone https://github.com/YOUR-USERNAME/Web-Monitor.git`
+
+Open the web_traffic.php page and change the "www.twitter.com" to the website of your choice
  
  Start your local server.
  
